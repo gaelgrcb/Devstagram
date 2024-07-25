@@ -19,7 +19,7 @@
 
         <nav class="flex gap-3 items-center">
             <a class="font-bold uppercase text-gray-600" href="">Login</a>
-            <a class="font-bold uppercase text-gray-600" href="/create-account">Crear Cuenta</a>
+            <a href="{{ route('register') }}" class="font-bold uppercase text-gray-600">Crear Cuenta</a>
         </nav>
 
         </div>
