@@ -50,13 +50,13 @@
                 </div>
                 <div class="mb-5">
                     <label for="email" class="mb-2 block uppercase text-gray-500 font-bold">
-                        Email
+                        Correo
                     </label>
                     <input 
                         id="email"
                         name="email"
                         type="email"
-                        placeholder="Tu Email de Registro"
+                        placeholder="Tu Correo de Registro"
                         class="border p-3 w-full rounded-lg
                         @error('email') border-red-500 @enderror"
                         value="{{old('email')}}"    
@@ -69,13 +69,13 @@
                 </div>
                 <div class="mb-5">
                     <label for="password" class="mb-2 block uppercase text-gray-500 font-bold">
-                        Password
+                        Contraseña
                     </label>
                     <input 
                         id="password"
                         name="password"
                         type="password"
-                        placeholder="Password de Registro"
+                        placeholder="Contraseña de Registro"
                         class="border p-3 w-full rounded-lg
                         @error('password') border-red-500 @enderror"
                         value="{{old('password')}}"    
@@ -88,13 +88,13 @@
                 </div>
                 <div class="mb-5">
                     <label for="password_confirmation" class="mb-2 block uppercase text-gray-500 font-bold">
-                        Repetir Password
+                        Repetir Contraseña
                     </label>
                     <input 
                         id="password_confirmation"
                         name="password_confirmation"
                         type="password"
-                        placeholder="Repite tu Password"
+                        placeholder="Repite tu Contraseña"
                         class="border p-3 w-full rounded-lg
                         @error('password') border-red-500 @enderror"
                         value="{{old('password')}}"    
